@@ -1,15 +1,17 @@
 import hand_icon from '../Assets/logo.png'
 import model from '../Assets/model.png'
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { MdOutlineWavingHand } from "react-icons/md";
 
 function Hero() {
   return (
     <div className="hero">
         <div className="hero-left">
-          <h2>NEEW ARRIVALS ONLY</h2>
+          <h2>NEW ARRIVALS ONLY</h2>
           <div>
             <div className="hero-hand-icon">
                 <p>new</p>
-                <img src={model} alt="" />
+                <MdOutlineWavingHand style={{width:'60px', height:'60px', background: 'yellow'}}/>
             </div>
             <p>collections</p>
             <p>for everyone</p>
@@ -17,7 +19,7 @@ function Hero() {
 
           <div className="hero-latest-button">
              <div>Latest Collection</div>
-             <img src={model} alt="" />
+             <FaLongArrowAltRight />
           </div>
         </div>
 
