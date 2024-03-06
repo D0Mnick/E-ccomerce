@@ -183,17 +183,22 @@ body{
 
 /* item start */
 .item {
-    width: 350px;
+    width: 250px;
+    align-items: center;
 }
 
 .item img{
-    width: 350px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     object-fit: cover;
 }
 
 .item p {
     margin: 6px 0px;
+    width: 200px;
+    font-style:italic;
+
+    
 }
 
 .item-prices{
@@ -228,12 +233,14 @@ body{
     align-items: center;
     gap: 10px;
     height: 90vh;
+    margin-bottom:120px;
 }
 
 .popular h1 {
     color: #171717;
     font-size: 50px;
     font-weight: 600;
+    margin-top: 60px;
 }
 .popular hr{
     width: 200px;
@@ -243,7 +250,7 @@ body{
 }
 
 .popular-item{
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     gap: 30px;
 }
@@ -351,7 +358,7 @@ body{
 
 .newsletter h1 {
     color: #454545;
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 600;
 }
 .newsletter p {
@@ -377,6 +384,7 @@ body{
     outline: none;
     color: #616161;
     font-size: 16px;
+    font-family: Poppins;
 }
 
 .newsletter div button{
@@ -463,3 +471,122 @@ body{
  }
 
 /* FOOTER END */
+
+
+/* Shop-category Start */
+.shopcategory-banner{
+    display: block; 
+    margin: 30px auto;
+    width: 82%;
+}
+
+.shopcategory-indexSort {
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopcategory-indexSort p span {
+    font-weight: 600;
+}
+
+.shopcategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+
+.shopcategory-products{
+    margin: 20px 170px; 
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    align-items: center;
+    justify-content: center;
+    row-gap: 80px;
+}
+
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Shop-category end */
+
+
+/* LOGINSIGNUP START */
+.loginsignup{
+    width: 100%;
+    height: 120vh;
+    background: #fce3fe;
+    padding-top:100px ;
+}
+
+.loginsignup-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+}
+
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.loginsignup-fields input{
+    height: 72px;
+    width: 100%;
+    padding-left:20px;
+    border: 1px solid #c9c9c9;
+    outline: #5c5c5c;
+    font-size:18px ;
+}
+.loginsignup-container button{
+    width: 605px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border:none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginsignup-login{
+    margin-top:20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+
+
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* LOGINSIGNUP END */
