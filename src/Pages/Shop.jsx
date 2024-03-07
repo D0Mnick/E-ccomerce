@@ -6,6 +6,7 @@ import Offer from "../Offers/Offer"
 import Popular from "../Populars/Popular"
 
 
+
 function Shop() {
   return (
     <div>
@@ -14,6 +15,7 @@ function Shop() {
       <Offer />
       <NewCollection />
       <NewsLetter />
+      
     
     </div>
   )
